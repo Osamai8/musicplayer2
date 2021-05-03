@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Caveat", cursive;
+  background-color:#282828;
+  color:white;
+}
+.App {
+  transition: all 0.5s ease;
+}
+.library-active {
+  margin-left: 30%;
+}
+
+@import "./Player";
+@import "./Song";
+@import "./library";
+@import "./Nav";
+
+
+// #282828
+// #1b1b1b
+// #ccc
